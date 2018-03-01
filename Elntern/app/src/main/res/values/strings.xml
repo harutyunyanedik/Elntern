@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Elntern</string>
+    <string name="heart_link">heartlink</string>
+    <string name="facebook">facebook</string>
+    <string name="google">google</string>
+    <string name="guest">enter as a guest</string>
+
+    <string name="facebook_app_id">1583093108393889</string>
+    <string name="fb_login_protocol_scheme">fb1583093108393889</string>
+</resources>

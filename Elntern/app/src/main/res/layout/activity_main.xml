@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_mountin"
+    tools:context="commentme.hk.com.elntern.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red_transparent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/heart_link"
+            android:layout_above="@id/layout_sign_in"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:drawableTop="@drawable/ic_heart"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="32dp"
+            android:id="@+id/layout_sign_in">
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/facebook"
+                android:textColor="@android:color/white"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_facebook_shape"
+                android:drawableLeft="@drawable/ic_facebook"
+                android:paddingLeft="48dp"
+                android:paddingRight="48dp"
+                android:drawablePadding="4dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="80dp"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_facebook"
+                android:id="@+id/facebook"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/google"
+                android:textColor="@android:color/white"
+                android:textAllCaps="true"
+                android:background="@drawable/ic_google_shape"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_google"
+                android:drawablePadding="4dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:paddingRight="56dp"
+                android:paddingLeft="56dp"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_google"
+                android:id="@+id/google"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guest"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:background="@drawable/ic_guest_ripple"
+                android:id="@+id/guest"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
